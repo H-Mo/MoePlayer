@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 设置toolbar的主题 -->
+        <item name="toolbarStyle">@style/ClubToolbar</item>
+    </style>
+
+    <style name="MyToolbarTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--这个是toolbar文字的颜色-->
+        <item name="android:textColorPrimary">#fff</item>
+        <!--这个是toolbar左边三道杆的颜色-->
+        <item name="android:textColorSecondary">#fff</item>
+        <!-- 设置该属性解决空白部分-->
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+    </style>
+
+    <style name="ClubToolbar" parent="Widget.AppCompat.Toolbar">
+        <!-- 设置该属性解决空白部分-->
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetEnd">0dp</item>
+    </style>
+
+    <style name="AppThemeTranslucent" parent="AppTheme">
+        <!--透明背景-->
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
+</resources>

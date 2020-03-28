@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MoBase</string>
+    <string name="app_loading">加载中</string>
+</resources>
