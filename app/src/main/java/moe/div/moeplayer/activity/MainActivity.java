@@ -147,7 +147,7 @@ public class MainActivity extends BaseActivity{
             startActivity(intent);
         });
         // github
-        github_ll.setOnClickListener(v -> AppUtils.openWebUrl(this, "http://div.moe"));
+        github_ll.setOnClickListener(v -> AppUtils.openWebUrl(this, "https://github.com/H-Mo/MoePlayer"));
         // 博客
         blog_ll.setOnClickListener(v -> AppUtils.openWebUrl(this, "http://div.moe"));
         // 请喝饮料
